@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+}
+
+#header {
+	font-family: cursive;
+}
+
+#memeGeneratorApp #header {	
+	background: #2E86C1;
+	padding: 15px;
+}
+
+#memeGeneratorApp #header h1 {
+	text-align: center;
+	color: white;
+	margin: 0;
+}
+#memeGeneratorApp #content {
+	font-family: Gill Sans Extrabold, sans-serif;
+	margin: 10px;
+	display: flex;
+}
+
+#memeGeneratorApp #content>div {
+	padding: 10px;
+}
+
+#memeGeneratorApp #content .edit-section {
+	width: 100%;
+}
+
+#memeGeneratorApp #content .output-section {
+	width: 70%;
+}
+
+#memeGeneratorApp #content .edit-section span {
+	display: inline-block;
+	min-width: 100px;
+}
+
+#memeGeneratorApp #content .edit-section .inputs input {
+	margin-top: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+#memeGeneratorApp #content .edit-section button {
+	padding: 10px 15px;
+	background: #2980B9;
+	color: snow;
+	border: none;
+	border-radius: 5px;
+	margin-top: 10px;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#memeGeneratorApp #content .output-section .meme {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+#memeGeneratorApp #content .output-section .meme img {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+/*	background-image: url('Preloader.gif');
+	background-repeat: no-repeat;
+	background-position: center;*/
+}
+
+#memeGeneratorApp #content .output-section .meme p {
+	position: absolute;
+	top: 0;
+	left: 0;
+	margin: 10px;
+	z-index: 1;
+	color: snow;
+	letter-spacing: 2px;
+	width: 100%;
+	display: inline;
+	word-break: break-all;
+	font-size: 150%;
+	text-align: center;
+	max-height: 100%;
+}
+
+#memeGeneratorApp #content .output-section .meme .bottomText {
+	top: unset;
+	bottom: 0;
+}
